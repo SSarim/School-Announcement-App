@@ -1,0 +1,64 @@
+<!--****************************
+ *        Sarim Shahwar        *
+ * Annoucementment Viewer HTML *
+ ***************************!-->
+
+
+<!DOCTYPE html>
+<html lang="En">
+<head>
+	<div class="sidenav">
+<img src="inform.png" alt="Infomation" id="Infotg">
+
+  <br><br>
+  <center>  
+  <a href="#"><a href="StudentAnnouncement.html"><font size="3"id="sdb">Announcements Selector</font></a>
+  <br><br><br><br>
+  <a href="#"><a href="AllAnnouncements.html"><font size="3" id="sdb">All Announcements</font></a>
+  <br><br><br><br>
+ <a href="#"><a href="Announcement Sender.html"><font size="3" id="sdb">Announcement Sender</font></a>
+
+
+
+   <form action="index.html" method="get" target="_self" id="logout1">
+         <button type="Logout" id="logout1"><font color="Red" face="Arial Black">Logout</button></font><br><br>
+    </form>
+
+</center>
+</div>
+<div class="main">
+	<center>
+	<title>All Announcements</title>
+	<body bgcolor="E6E6FA"></body>
+</head>
+<h1><font color="#FF7F50"> All Announcements</font></h1>
+
+<body id="bdy" onload="Start()">	   
+    <div id="ViewTable">
+    	<hr id="Space">
+            <table style="table-layout: fixed;">
+            	<tr>
+	                <br><br>
+	                <TD BGCOLOR="#f4a442">Gender</TD>
+	                <TD BGCOLOR="#f4a442">Grade</TD>
+	                <TD BGCOLOR="#f4a442">Club/Team</TD>
+	                <TD BGCOLOR="#f4a442">Message</TD>
+            	</tr>
+            	<tr bgcolor="#0070FF">
+	                <td style="color:white; "id="TeacherGender"></td>
+	                <td style="color:white;"id="TeacherGrade"></td>
+	                <td style="color:white;"id="TeacherClub"></td>
+	                <td style="color:white; display: inline-block;word-break: break-word;"id="TeacherAnnouncement"></td>
+            	</tr>
+            	<marquee><p id="Headsup" BGCOLOR= "#white">Upcoming Events: Good Friday- April 19 | Easter Monday- April 22 | Mid Term Report Cards - April 24 | School Council Meeting - April 25 at 7:00PM | Early Release Day-Classes Finish at 11.10 AM </p> 
+            	<tr id="view"></tr> 
+		  </table>
+		  <br><br><br><br><br>
+	      <hr id="Space">
+			
+	</div>
+</body>
+</html>
+
+<link rel="stylesheet" type="text/css" href="LoginPage CSS.css">
+<script type="text/javascript" src="AnnounceViewer.js"></script>	
